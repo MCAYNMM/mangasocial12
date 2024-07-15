@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  zoom: 80%
+}
+
+.cont {
+  background-color: black;
+  width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Poppins:wght@200;300&display=swap");
+@import "navigation";
+@import "slider";
+@import "login";
+@import "comic";
+@import "comicRecent";
+@import "news";
+@import "rank";
+@import "genres";
+@import "chapper";
+@import "comments";

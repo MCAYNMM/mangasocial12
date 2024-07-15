@@ -1,0 +1,42 @@
+// App.scss
+
+* {
+  box-sizing: border-box;
+}
+
+.player {
+  background-color:
+    #817e7e;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.Control-Button-Group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  >* {
+    cursor: pointer;
+  }
+}
+
+
+.Pause-Play-Button {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: #138e00;
+  border-radius: 100%;
+  align-items: center;
+
+  svg {
+    height: 22px;
+  }
+}

@@ -1,0 +1,192 @@
+.news{
+    
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 40px;
+    padding-top: 30px;
+    .news-left{
+        border-radius: 10px;
+      
+        .poster{
+            display: flex;
+            gap: 30px;
+            .custom{
+                height: 1779px;
+                overflow: hidden;
+                .space{
+                    height: 563px;
+                    margin-bottom: 30px;
+                    .wrap-img-thumbnail{
+                        width: 484px;
+                        height: 560px;
+                        overflow: hidden;
+                        border-radius: 12px;
+                        margin-bottom: 30px;
+    
+                        .thumbnail{
+                            transition: 0.5s all ease-in-out;
+                        transform-origin: center;
+                        }
+                        .thumbnail:hover{
+                            transform: scale(1.2);
+                            cursor: pointer;
+                        }
+                    }
+                    .wrap-img-thumbnail:hover{
+                        transition: 0.5s all ease-in-out;
+                    }
+                    .discriber{
+                        .discriber-date{
+                            font-size: 11px;
+                            font-weight: 600;
+                            color: #fff;
+                            margin-bottom: 0;
+                        }
+                        .discriber-text{
+                            font-size: 22px;
+                            font-weight: 600;
+                            color: #fff;
+                            width: 278px;
+                        }
+                    }
+                    .folow-poster{
+                        position: relative;
+                        top: -158px;
+                        line-height: 26px;
+                        left: 28px;
+                    }
+                }
+                
+            }
+           .custom-samll-news{
+            height: 1779px;
+            overflow: hidden;
+            .thumbnail-left{
+                .thumbnail-small{
+                    width: 302px;
+                    height: 280px;
+                    margin-bottom: 20px;
+                }
+                .discriber{
+                    margin-bottom: 50px;
+                    .discriber-date{
+                        font-size: 11px;
+                        font-weight: 600;
+                        color: #fff;
+                        margin-bottom: 0;
+                    }
+                    .discriber-text{
+                        font-size: 22px;
+                        font-weight: 600;
+                        max-height: 80px;
+                        color: #fff;
+                        width: 278px;
+                        line-height: 26px;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;  /* số dòng hiển thị */
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        visibility: visible;
+                    }
+                }
+            }
+           }
+           
+           
+        }
+    }
+    .news-right{
+        width: 100%;
+        height:1000px;
+
+        // background-;
+        background-color: #323232;
+        border-radius: 12px;
+        margin-bottom: 40px;
+        .lab{
+            text-align: center;
+
+            label {
+                // margin-left: 45%;
+                font-size: 32px;
+                font-weight: 700;
+                color: rgba(136, 136, 136, 1);
+                // margin: 0 auto;
+            }
+        }
+        
+
+        .username {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            .avatar {
+                margin-left: 18px;
+                width: 48px;
+                height: 48px;
+                border-radius: 30px;
+                }
+
+            .text-avatar {
+                font-weight: 600;
+                font-size: 32px;
+                width: 179px;
+                height: 48px;
+                -webkit-line-clamp: 1;  /* số dòng hiển thị */
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                visibility: visible;
+                color: #fff;
+                margin-left: 10px;
+
+            }
+
+         
+
+            .date-text {
+                color: #fff;
+                font-size: 22px;
+                margin-left: 70px;
+                font-weight: 600;
+                margin-right: 30px;
+                margin-top: 10px;
+            }
+
+            .bold {
+                font-weight: bold;
+                margin-left: 8px;
+            }
+
+            .minus {
+                font-size: 12px;
+                color: #496EF1;
+                margin-left: 8px;
+                font-weight: 600;
+            }
+        }
+
+        p {
+            color: #7A7A7A;
+            font-weight: 600;
+            text-align: center;
+            margin: 40px 0;
+            padding-bottom: 40px;
+        }
+
+        p:hover {
+            cursor: pointer;
+        }
+        .seemore{
+            font-size: 24px;
+            font-weight: 600;
+            color: #7A7A7A;
+        }
+    }
+   
+}

@@ -1,0 +1,71 @@
+.rank{
+    .filter-date{
+        color: #fff;
+        margin-left: 65px;
+        span{
+
+            font-size: 32px;
+            font-weight: 600;
+            margin-right: 60px;
+            margin-bottom: 60px;
+        }
+    }
+    .rank-template{
+        margin-left: 65px;
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        height: 501px;
+        width: 1551px;
+        flex-wrap: wrap;
+        gap: 5px;
+        overflow: hidden;
+        .item-rank{
+            display: flex;
+            background-color: rgba(44, 44, 44, 1);
+            padding: 25px 50px 25px 40px;
+            width: 370px;
+            height: 96px;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 12px;
+            transition: background-color 0.5s ease;
+            .number{
+               
+                font-size: 45px;
+                font-weight: 600;
+                background: linear-gradient(to bottom, rgba(243, 4, 4, 1), rgba(255, 255, 255, 1) );
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+            img{
+                width: 55px;
+                height: 55px;
+            }
+            p{
+                margin-bottom: 0;
+            }
+            .text-rank{
+                .text-rank-top{
+                    color: #fff;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                span{
+                    color: #fff;
+                    
+                }
+                .adv{
+                    margin-right: 15px;
+                }
+            }
+        }
+        .item-rank:hover{
+            cursor: pointer;
+            background-color: rgba(74, 74, 74, 1);
+        
+
+        }
+    }
+}

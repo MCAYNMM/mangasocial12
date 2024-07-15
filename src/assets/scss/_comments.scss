@@ -1,0 +1,102 @@
+.comments{
+    margin-left: 65px;
+    padding-bottom: 200px;
+    .item-comments{
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        justify-content: space-between;
+        align-items: center;
+        .left-comment{
+            
+            .topic-comic{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                .wrap-mask{
+                    width: 60px;
+                    height: 60px;
+                    background-color: #4c4c4c;
+                    padding: 10px;
+                    border-radius: 50%;
+                    .mask{
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+                
+                .name-topic{
+                    color: #fff;
+                    font-size: 32px;
+                    font-weight: 600;
+                    // padding-top: 15px;
+                    padding-bottom: 0;
+                }
+            }
+            .viewer{
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                margin-top: 20px;
+                .ellips{
+                    width: 38px;
+                    height: 38px;
+                }
+                .name-user{
+                    color: #fff;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .add-cmt{
+                    color: #fff;
+                    font-size: 21px;
+                    font-weight: 600;
+                }
+            }
+            .coment-user{
+                display: flex;
+                margin-top: 15px;
+                gap: 15px;
+                img{
+                    width: 32px;
+                    height: 32px;
+                }
+                .bxs-chat{
+
+                }
+                .mess-chat{
+                    color: #fff;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                .ri-book{
+                    color: #fff;
+                }
+                .comic-name{
+                    color: rgba(244, 95, 23, 1);
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .right-comment{
+            display: flex;
+            margin-right: 80px;
+            gap: 30px;
+            // justify-content: center;
+            .number{
+                text-align: center;
+                .title-number{
+                    color: #fff;
+                    font-size: 28px;
+                    font-weight: 400;
+                }
+                .number-cm{
+                    color: #fff;
+                    font-size: 45px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

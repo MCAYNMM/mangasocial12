@@ -1,0 +1,114 @@
+.Wapper_Genres {
+  background-color: #000;
+  //   transform: translateY(-115px);
+
+  &-box {
+    overflow: hidden;
+    width: 22%;
+    margin-left: 10px;
+    margin-top: 150px;
+    cursor: pointer;
+  }
+  &-slide {
+    margin-top: -117px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    &-img {
+      &:hover {
+        transform: scale(1.2, 1.2);
+        transition: 0.5s ease-out;
+      }
+
+      width: 100%;
+    }
+  }
+  &-title {
+    h1 {
+      color: #fff;
+      margin-left: 60px;
+    }
+  }
+  &-content {
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-items {
+        cursor: pointer;
+        border-radius: 12px;
+        width: 22%;
+        height: 225px;
+        position: relative;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+      &-des {
+        margin-top: -80px;
+        position: absolute;
+
+        &-tilte {
+          font-size: 20px;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+    &-img {
+      width: 300px;
+      height: 300px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        &:hover {
+          transform: scale(1.2, 1.2);
+          filter: brightness(50%);
+          transition: 1s ease-out;
+        }
+      }
+    }
+  }
+  &-footer {
+    margin-left: 60px;
+    h1 {
+      color: #fff;
+    }
+    &-tag {
+      display: flex;
+      align-items: center;
+      p {
+        cursor: pointer;
+        background-color: #363636;
+        padding: 5px;
+        color: #fff;
+        margin: 10px;
+        border-radius: 32px;
+      }
+    }
+  }
+}
+.Wapper_Genres-text {
+  opacity: 0.2;
+}
+.Wapper_Genres-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Wapper_Genres-content-img:hover .Wapper_Genres-content-container-des-tilte {
+  margin-top: -70px;
+  transition: 0.7s ease-out;
+}
+.Wapper_Genres-content-img:hover .Wapper_Genres-text {
+  opacity: 1;
+  transition: 1.2s ease-out;
+}

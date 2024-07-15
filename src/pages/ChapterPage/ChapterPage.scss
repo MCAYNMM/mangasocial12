@@ -1,0 +1,10 @@
+@tailwind components;
+@layer components {
+    
+    .tabbtn {
+        @apply w-[100px] text-[#F45F17] font-semibold text-[14px] leading-[20px] md:w-[181px] md:text-[24px] md:leading-[32px] border-b-4 border-[#F45F17] text-center p-[10px] cursor-pointer
+    }
+    .none-tab {
+        @apply w-[100px] font-semibold text-[14px] leading-[20px] md:w-[181px] md:text-[24px] md:leading-[32px]  text-white cursor-pointer text-center
+    }
+}
